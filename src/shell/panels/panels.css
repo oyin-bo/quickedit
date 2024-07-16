@@ -1,0 +1,145 @@
+.panels-scroll-host {
+  position: absolute;
+  left: 0; top: 0; width: 0; height: 0;
+  background: black;
+  background: transparent;
+}
+
+.panels-scroll-content {
+  width: 0; height: 0;   overflow: hidden;
+}
+
+.panel-each-title {
+  text-align: center;
+  height: 100%;
+  border: solid 1px rgb(19, 40, 87);
+  opacity: 0.95;
+  font: inherit;
+  *font: Serif;
+}
+
+.panel-each-bottom {
+  padding-left: 1em;
+  font: inherit;
+  *font: Serif;
+}
+
+.panel-each-title-active {
+  background: rgb(19, 40, 87);
+  opacity: 0.95;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+}
+
+.panels-panel {
+  width: 0; height: 0;
+  color: darkcyan;
+  cursor: default;
+}
+
+.panel-each-background {
+  background: rgb(4, 12, 64);
+  opacity: 0.95;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+	filter: alpha(opacity=95);
+}
+
+.panel-top-shadow {
+  background: black;
+  opacity: 0.8;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+
+.panel-bottom-shadow {
+  background: black;
+  opacity: 0.7;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+}
+
+.panel-each-scrollhost {
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.panels-panel * {
+  cursor: default;
+}
+
+.panels-left-panel {
+  float: left;
+}
+
+.panels-right-panel {
+  float: right;
+}
+
+.panels-middle-dark-stripe {
+  background: black;
+  opacity: 0.8;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+
+.panels-panel-page {
+  clear: both;
+}
+
+.panels-page-separator {
+  clear: both;
+}
+
+.panels-panel-column {
+  float: left;
+}
+
+.panel-each-bottom {
+  padding-left: 10px;
+}
+
+.panels-entry {
+
+  padding-top: 1px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+
+  overflow: hidden;
+  font: inherit;
+  *font: Serif;
+}
+
+.panels-entry-dir {
+  color: white;
+}
+
+.panels-panel-active .panels-entry-current {
+  background: darkcyan;
+  border: solid 1px darkcyan;
+
+  padding-top: 0px;
+  padding-bottom: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin: 0px;
+}
+
+.panels-panel-inactive .panels-entry-current {
+  border: solid 1px #00345B;
+
+  padding-top: 0px;
+  padding-bottom: 2px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin: 0px;
+}
+
+.panels-panel-active .panels-entry-file-current {
+  color: navy;
+}
+
+.panels-entry-selected {
+  color: gold;
+}
